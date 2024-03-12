@@ -20,7 +20,7 @@ public class InterfaceGrafica extends JFrame {
     private void initComponents() {
         setTitle("Interface Gráfica Banco de Dados");
         setSize(500, 220);
-        setDefaultCloseOperation(JFrame.DO_NOTHING_ON_CLOSE); // Evita que o sistema feche a janela diretamente
+        setDefaultCloseOperation(JFrame.DO_NOTHING_ON_CLOSE); 
 
         addWindowListener(new WindowAdapter() {
           
